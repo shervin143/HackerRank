@@ -73,7 +73,7 @@ namespace RestaurantCollection.WebApi.Controllers
                 return StatusCode((int)HttpStatusCode.BadRequest, message);
             }
 
-            return Json(restaurants.FirstOrDefault()));
+            return Json(restaurants.FirstOrDefault());
         }
 
         [HttpGet]
