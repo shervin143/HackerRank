@@ -14,6 +14,9 @@ using System.Net;
 
 namespace RestaurantCollection.WebApi.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
+    [Produces("application/json")]
     public class CompaniesController : Controller
     {
         private readonly ILogger<CompaniesController> _logger;

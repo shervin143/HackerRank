@@ -14,7 +14,8 @@ using System.Net;
 
 namespace RestaurantCollection.WebApi.Controllers
 {
-    //[Route("[Controller]/[Action]")]
+    [ApiController]
+    [Route("[controller]")]
     [Produces("application/json")]
     public class RestaurantController : Controller
     {
